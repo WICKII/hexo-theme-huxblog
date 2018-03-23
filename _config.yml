@@ -3,91 +3,93 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kaijun's Blog
-subtitle: To Be A Lean Developer!
-author: Kaijun Chen
+title: WICKII Blog
+subtitle: Ideas are shit without execution.
+author: WICKII
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kaijun.rocks/hexo-theme-huxblog
-root: /hexo-theme-huxblog/
+url: http://WICKII.github.io
+root: /WICKII.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Kaijun的博客 | Kaijun's Blog
-header-img: img/home-bg.jpg
-email: Kaijun.cn@gmail.com
-description: ""
-keyword: ""
+SEOTitle: 维奇的博客 | WICKII Blog
+header-img: img/desk1.jpg
+email: wozbuwpei@gmail.com
+description: "RF Engineer"
+keyword: "WICKII, WICKII Blog, 维奇的博客, WICKII, 维奇, RF, hardware"
 
 
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
-github_username:    Kaijun
-twitter_username:   Demonbane_x
-facebook_username:  demonbane.cn
-linkedin_username:  kaijun-chen-42089354
+weibo_username:     2126251470
+zhihu_username:     wicky-jane
+github_username:    WICKII
+#twitter_username:   Demonbane_x
+#facebook_username:  demonbane.cn
+#linkedin_username:  kaijun-chen-42089354
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-# Disqus settings
-disqus_username: hexo-theme-huxblog
+# # Disqus settings
+# disqus_username: hexo-theme-huxblog
 
-# Duoshuo settings
-# duoshuo_username: kaijun
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# # Duoshuo settings
+# # duoshuo_username: kaijun
+# # Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  id: page.date
+  clientID: 133b9dc1e1a48395b801                            #生成的clientID
+  clientSecret: 2a8a3b05440b3f875d1fed164e1b447772324f44    #生成的clientSecret
+  repo: WICKII.github.io    #仓库名称
+  owner: WICKII    #github用户名
+  admin: WICKII
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-115612956-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我要成为魔法师!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "当下不杂 过往不恋"
+sidebar-avatar: /img/bears.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 2            # A tag will be featured if the size of it is more than this condition value
 
 
 # Friends
 friends: [
     {
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
+        title: "简书·WICKII",
+        href: "https://www.jianshu.com/u/dce56a33daf1"
     },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "简书·lifesmily",
+        href: "https://www.jianshu.com/u/e87b13f1f05c"
     },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Yuan Blog",
+        href: "https://dodoyuan.github.io/"
     }
+
 ]
 
 
